@@ -12,7 +12,7 @@ export default function Dashboard() {
     password: "",
     correo: "",
   });
-  const [loading, setLoading] = useState(false);
+  const [loading, _] = useState(false);
   const [error, setError] = useState(null);
 
   const fetchUsers = async () => {
